@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="background1" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -56,17 +56,19 @@
     <instance objName="obj_NPC" x="491" y="214" name="inst_3EC1C18F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_NPC" x="456" y="189" name="inst_5FE69EAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_NPC" x="550" y="191" name="inst_051A5334" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Grass_Zone" x="192" y="16" name="inst_6B516176" locked="0" code="" scaleX="34.0645179748535" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Grass_Zone" x="1104" y="144" name="inst_8C756DB8" locked="0" code="" scaleX="5.5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Grass_Zone" x="1120" y="176" name="inst_C9983CA4" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Grass_Zone" x="1136" y="208" name="inst_C4E0F840" locked="0" code="" scaleX="4.5" scaleY="6.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Grass_Zone" x="1104" y="320" name="inst_5C852B06" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Grass_Zone" x="1072" y="352" name="inst_8E561B6E" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Grass_Zone" x="1008" y="368" name="inst_95C4D9ED" locked="0" code="" scaleX="8.5" scaleY="17" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Grass_Zone" x="240" y="240" name="inst_98BF4EC2" locked="0" code="" scaleX="25" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Grass_Zone" x="240" y="272" name="inst_BF59D73B" locked="0" code="" scaleX="22.5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Grass_Zone" x="240" y="304" name="inst_A47E9999" locked="0" code="" scaleX="21.5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Grass_Zone" x="1088" y="128" name="inst_9AA62A33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="0" y="144" name="inst_D06B7AFB" locked="0" code="" scaleX="4.5" scaleY="35.6129035949707" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="144" y="1120" name="inst_64DB0940" locked="0" code="" scaleX="35.5" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="976" y="1088" name="inst_5A7F2EE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="512" y="864" name="inst_7FAD4976" locked="0" code="" scaleX="15.4838705062866" scaleY="1.54838705062866" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="240" y="224" name="inst_A66D2E09" locked="0" code="" scaleX="21" scaleY="18" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="240" y="800" name="inst_D8DECE2C" locked="0" code="" scaleX="5" scaleY="7.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="400" y="1008" name="inst_587AC2E0" locked="0" code="" scaleX="15.4838705062866" scaleY="1.03225803375244" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="912" y="240" name="inst_BD702C65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="992" y="256" name="inst_BB532851" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="0" y="0" name="inst_47C7F750" locked="0" code="" scaleX="40" scaleY="4.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="1136" y="144" name="inst_5ECA2F09" locked="0" code="" scaleX="4.5" scaleY="30.4516124725342" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="1008" y="368" name="inst_187C971A" locked="0" code="" scaleX="4" scaleY="23.7419357299805" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Grass_Zone" x="976" y="832" name="inst_E14D69E5" locked="0" code="" scaleX="1" scaleY="3.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_Tileset" x="640" y="128" w="128" h="128" xo="128" yo="0" id="10000003" name="inst_7D09DDE8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

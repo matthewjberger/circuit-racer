@@ -15,6 +15,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Tileset</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_RaceLine1</path>
