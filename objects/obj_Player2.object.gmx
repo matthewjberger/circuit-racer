@@ -28,17 +28,17 @@
             <string>///Player Input
 
 //Left Turn
-if(gamepad_axis_value(0, gp_axislh) &lt; -0.5){
-    phy_rotation += (2.7 * (gamepad_axis_value(0, gp_axislh)))
+if(gamepad_axis_value(0, gp_axisrh) &lt; -0.5){
+    phy_rotation += (2.7 * (gamepad_axis_value(0, gp_axisrh)))
 }
 
 //Right Turn
-if(gamepad_axis_value(0, gp_axislh) &gt; 0.5){
-    phy_rotation += (2.7 * (gamepad_axis_value(0, gp_axislh)))
+if(gamepad_axis_value(0, gp_axisrh) &gt; 0.5){
+    phy_rotation += (2.7 * (gamepad_axis_value(0, gp_axisrh)))
 }
 
 //Gas
-gas_value = gamepad_button_value(0, gp_shoulderlb);
+gas_value = gamepad_button_value(0, gp_shoulderrb);
 if(gas_value &gt; 0.1){
 
     forward_x = lengthdir_x(155, -phy_rotation - 90) * gas_value;
@@ -49,7 +49,7 @@ if(gas_value &gt; 0.1){
 }
 
 //Brake
-/*brake_value = gamepad_button_value(0, gp_shoulderlb);
+/*brake_value = gamepad_button_value(0, gp_shoulderrb);
 if(brake_value &gt; 0.1){
 
     phy_speed_x = lerp(phy_speed_x, 0, 0.05);

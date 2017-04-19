@@ -25,6 +25,7 @@
   <objects name="objects">
     <object>objects\obj_Car_Base</object>
     <object>objects\obj_Player</object>
+    <object>objects\obj_Player2</object>
     <object>objects\obj_NPC</object>
     <object>objects\obj_NPC_Target</object>
     <object>objects\obj_Grass_Zone</object>

@@ -42,7 +42,7 @@
   </backgrounds>
   <views>
     <view visible="-1" objName="obj_Player" xview="0" yview="0" wview="640" hview="360" xport="0" yport="360" wport="1280" hport="360" hborder="640" vborder="360" hspeed="-1" vspeed="-1"/>
-    <view visible="-1" objName="obj_NPC" xview="0" yview="0" wview="640" hview="360" xport="0" yport="0" wport="1280" hport="360" hborder="640" vborder="360" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="obj_Player2" xview="0" yview="0" wview="640" hview="360" xport="0" yport="0" wport="1280" hport="360" hborder="640" vborder="360" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_Player" x="608" y="211" name="inst_437CE971" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Player" x="640" y="208" name="inst_437CE971" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_NPC" x="512" y="160" name="inst_4D48FDC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_NPC" x="491" y="214" name="inst_3EC1C18F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_NPC" x="456" y="189" name="inst_5FE69EAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -69,6 +69,7 @@
     <instance objName="obj_Grass_Zone" x="1136" y="144" name="inst_5ECA2F09" locked="0" code="" scaleX="4.5" scaleY="30.4516124725342" colour="4294967295" rotation="0"/>
     <instance objName="obj_Grass_Zone" x="1008" y="368" name="inst_187C971A" locked="0" code="" scaleX="4" scaleY="23.7419357299805" colour="4294967295" rotation="0"/>
     <instance objName="obj_Grass_Zone" x="976" y="832" name="inst_E14D69E5" locked="0" code="" scaleX="1" scaleY="3.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Player2" x="640" y="176" name="inst_71F6BE1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
   </instances>
   <tiles>
     <tile bgName="bg_Tileset" x="640" y="128" w="128" h="128" xo="128" yo="0" id="10000003" name="inst_7D09DDE8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
