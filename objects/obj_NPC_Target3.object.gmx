@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>///Initialize Race Target.
-randomize();
 path[0] = path_RaceLine5;
 
 path_start(path[0], 2.0 + random(0.5), 1, 1);

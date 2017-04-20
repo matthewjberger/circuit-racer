@@ -104,8 +104,8 @@ if(phy_speed &gt; 1){
     if(angle_dif &gt; 20){
         
         //emit tyres onto floor.
-        part_type_orientation(tyre_part, -phy_rotation, -phy_rotation, 0, 0, 0);
-        part_emitter_burst(psys, emm, tyre_part, 5);
+        //part_type_orientation(tyre_part, -phy_rotation, -phy_rotation, 0, 0, 0);
+        //part_emitter_burst(psys, emm, tyre_part, 5);
     
         //emit surface based particles.
         if(place_meeting(x,y, obj_Grass_Zone)){
@@ -114,9 +114,9 @@ if(phy_speed &gt; 1){
             part_type_direction(dirt_part, -phy_rotation + 90, -phy_rotation + 90, 0, 0);
             part_emitter_burst(psys, emm, dirt_part, 5);
         }else{
-            part_type_speed(smoke_part, 1, 2, 0, 0);
-            part_type_direction(smoke_part, inertia_dir, inertia_dir, 0, 0);
-            part_emitter_burst(psys, emm, smoke_part, 1);
+            //part_type_speed(smoke_part, 1, 2, 0, 0);
+            //part_type_direction(smoke_part, inertia_dir, inertia_dir, 0, 0);
+            //part_emitter_burst(psys, emm, smoke_part, 1);
         }
 
         

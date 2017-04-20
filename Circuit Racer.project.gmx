@@ -49,9 +49,9 @@
     <object>objects\obj_bg_music</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_Level1</room>
     <room>rooms\rm_Level2</room>
     <room>rooms\rm_Level3</room>
+    <room>rooms\rm_Level1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

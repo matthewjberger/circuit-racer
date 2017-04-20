@@ -101,6 +101,7 @@
     <instance objName="switch2" x="832" y="320" name="inst_AC07A8EF" locked="0" code="" scaleX="2" scaleY="2.06451606750488" colour="4294967295" rotation="0"/>
     <instance objName="switch3" x="320" y="576" name="inst_08B2638C" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="switch4" x="192" y="320" name="inst_3AAE47B2" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bg_music" x="256" y="64" name="inst_A805109A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_Tileset" x="160" y="32" w="128" h="128" xo="0" yo="128" id="10000130" name="inst_91CEC68C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
