@@ -16,6 +16,7 @@
     <sprite>sprites\spr_Smoke_Part</sprite>
     <sprite>sprites\spr_Zone</sprite>
     <sprite>sprites\spr_Dirt_Part</sprite>
+    <sprite>sprites\money</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_Tileset</background>
@@ -47,6 +48,7 @@
     <object>objects\switch4</object>
     <object>objects\obj_PlayerStatus</object>
     <object>objects\obj_bg_music</object>
+    <object>objects\obj_Money</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Level2</room>

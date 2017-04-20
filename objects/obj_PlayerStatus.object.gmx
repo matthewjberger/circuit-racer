@@ -28,11 +28,13 @@
             <string>draw_set_alpha(1);
 draw_set_color(c_white);
 
-draw_text(0, 0, "Player One - Current Lap: " + string(obj_Player.current_lap));
-//draw_text(0, 30, "Last Switch: " + string(obj_Player.last_switch));
+draw_text(0, 0, "Player One");
+draw_text(0, 30, "Current Lap: " + string(obj_Player.current_lap));
+draw_text(0, 60, "Money: $" + string(obj_Player.current_money));
 
-draw_text(0, 360, "Player Two - Current Lap: " + string(obj_Player2.current_lap));
-//draw_text(0, 390, "Last Switch: " + string(obj_Player2.last_switch));
+draw_text(0, 360, "Player Two");
+draw_text(0, 390, "Current Lap: " + string(obj_Player2.current_lap));
+draw_text(0, 420, "Money: $" + string(obj_Player2.current_money));
 </string>
           </argument>
         </arguments>

@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>current_lap = 1;
 last_switch = 1;
+current_money = 20;
 event_inherited();
 </string>
           </argument>
@@ -51,6 +52,7 @@ event_inherited();
           <argument>
             <kind>1</kind>
             <string>///Collisions
+randomize()
 if(place_meeting(x,y,switch2) &amp;&amp; last_switch == 1) last_switch = 2;
 if(place_meeting(x,y,switch3) &amp;&amp; last_switch == 2) last_switch = 3;
 if(place_meeting(x,y,switch4) &amp;&amp; last_switch == 3) last_switch = 4;
@@ -68,6 +70,14 @@ if(place_meeting(x,y,switch1) &amp;&amp; last_switch == 4)
     else
     {
         last_switch = 1;
+    }
+}
+if(place_meeting(x,y,obj_Money))
+{
+    current_money += irandom_range(30,60)
+    with(obj_Money)
+    {
+        instance_destroy()
     }
 }
 </string>
