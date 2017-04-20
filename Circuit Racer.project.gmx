@@ -7,6 +7,8 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_Car</sprite>
+    <sprite>sprites\spr_Car2</sprite>
+    <sprite>sprites\spr_Ai</sprite>
     <sprite>sprites\spr_Tyre_Part</sprite>
     <sprite>sprites\spr_Target</sprite>
     <sprite>sprites\spr_Smoke_Part</sprite>

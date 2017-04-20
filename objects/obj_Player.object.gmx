@@ -51,7 +51,14 @@ event_inherited();
           <argument>
             <kind>1</kind>
             <string>///Collisions
-if(place_meeting(x,y,switch2)) last_switch = 2;
+if(place_meeting(x,y,switch2) &amp;&amp; last_switch == 1) last_switch = 2;
+if(place_meeting(x,y,switch3) &amp;&amp; last_switch == 2) last_switch = 3;
+if(place_meeting(x,y,switch4) &amp;&amp; last_switch == 3) last_switch = 4;
+if(place_meeting(x,y,switch1) &amp;&amp; last_switch == 4)
+{
+    current_lap += 1;
+    last_switch = 1;
+}
 </string>
           </argument>
         </arguments>
