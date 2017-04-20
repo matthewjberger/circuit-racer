@@ -22,23 +22,22 @@
     <background>background\background3</background>
   </backgrounds>
   <paths name="paths">
-    <paths name="track_1">
-      <path>paths\path_RaceLine1</path>
-      <path>paths\path_RaceLine2</path>
-      <path>paths\path_RaceLine3</path>
-    </paths>
-    <paths name="track_2">
-      <path>paths\path_RaceLine4</path>
-      <path>paths\path_RaceLine5</path>
-      <path>paths\path_RaceLine6</path>
-    </paths>
+    <path>paths\path_RaceLine5</path>
+    <path>paths\path_RaceLine4</path>
+    <path>paths\path_RaceLine2</path>
+    <path>paths\path_RaceLine3</path>
+    <path>paths\path_RaceLine1</path>
   </paths>
   <objects name="objects">
     <object>objects\obj_Car_Base</object>
     <object>objects\obj_Player</object>
     <object>objects\obj_Player2</object>
     <object>objects\obj_NPC</object>
+    <object>objects\obj_NPC2</object>
+    <object>objects\obj_NPC3</object>
     <object>objects\obj_NPC_Target</object>
+    <object>objects\obj_NPC_Target2</object>
+    <object>objects\obj_NPC_Target3</object>
     <object>objects\obj_Grass_Zone</object>
     <object>objects\switch1</object>
     <object>objects\switch2</object>
