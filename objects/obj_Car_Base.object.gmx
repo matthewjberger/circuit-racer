@@ -30,6 +30,9 @@ image_speed = 0;
 my_target = -1;
 angle_dif = 0;
 
+current_lap = 1;
+last_switch = 1;
+
 //Initialize Particl System.
 psys = part_system_create();
 part_system_automatic_draw(psys, false);

@@ -29,6 +29,11 @@
     <object>objects\obj_NPC</object>
     <object>objects\obj_NPC_Target</object>
     <object>objects\obj_Grass_Zone</object>
+    <object>objects\switch1</object>
+    <object>objects\switch2</object>
+    <object>objects\switch3</object>
+    <object>objects\switch4</object>
+    <object>objects\obj_PlayerStatus</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Level1</room>

@@ -64,12 +64,16 @@
     <instance objName="obj_Grass_Zone" x="240" y="800" name="inst_D8DECE2C" locked="0" code="" scaleX="5" scaleY="7.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Grass_Zone" x="400" y="1008" name="inst_587AC2E0" locked="0" code="" scaleX="15.4838705062866" scaleY="1.03225803375244" colour="4294967295" rotation="0"/>
     <instance objName="obj_Grass_Zone" x="912" y="240" name="inst_BD702C65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Grass_Zone" x="992" y="256" name="inst_BB532851" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Grass_Zone" x="0" y="0" name="inst_47C7F750" locked="0" code="" scaleX="40" scaleY="4.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Grass_Zone" x="1136" y="144" name="inst_5ECA2F09" locked="0" code="" scaleX="4.5" scaleY="30.4516124725342" colour="4294967295" rotation="0"/>
     <instance objName="obj_Grass_Zone" x="1008" y="368" name="inst_187C971A" locked="0" code="" scaleX="4" scaleY="23.7419357299805" colour="4294967295" rotation="0"/>
     <instance objName="obj_Grass_Zone" x="976" y="832" name="inst_E14D69E5" locked="0" code="" scaleX="1" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Player2" x="640" y="176" name="inst_71F6BE1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="switch1" x="576" y="144" name="inst_8FEC9942" locked="0" code="" scaleX="1" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="switch2" x="912" y="720" name="inst_672F9135" locked="0" code="" scaleX="3.09677410125732" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="switch3" x="464" y="1040" name="inst_098A37F3" locked="0" code="" scaleX="1.54838705062866" scaleY="2.5806450843811" colour="4294967295" rotation="0"/>
+    <instance objName="switch4" x="144" y="560" name="inst_70606F72" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_PlayerStatus" x="224" y="176" name="inst_D1F4B86D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_Tileset" x="640" y="128" w="128" h="128" xo="128" yo="0" id="10000003" name="inst_7D09DDE8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
