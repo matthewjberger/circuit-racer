@@ -74,6 +74,7 @@
     <instance objName="switch3" x="464" y="1040" name="inst_098A37F3" locked="0" code="" scaleX="1.54838705062866" scaleY="2.5806450843811" colour="4294967295" rotation="0"/>
     <instance objName="switch4" x="144" y="560" name="inst_70606F72" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_PlayerStatus" x="224" y="176" name="inst_D1F4B86D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="switch2" x="720" y="160" name="inst_DEE5C780" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_Tileset" x="640" y="128" w="128" h="128" xo="128" yo="0" id="10000003" name="inst_7D09DDE8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
