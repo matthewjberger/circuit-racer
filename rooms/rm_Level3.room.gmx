@@ -56,6 +56,11 @@
     <instance objName="obj_NPC3" x="176" y="112" name="inst_F6A1A2E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_Player" x="416" y="112" name="inst_8D529486" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_Player2" x="416" y="144" name="inst_EA1A4E1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_PlayerStatus" x="96" y="112" name="inst_5D65533D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="switch1" x="448" y="96" name="inst_9CA53C5C" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="switch2" x="848" y="464" name="inst_9F4479C2" locked="0" code="" scaleX="2.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="switch3" x="528" y="768" name="inst_57EB234B" locked="0" code="" scaleX="3" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="switch4" x="176" y="256" name="inst_A00694AD" locked="0" code="" scaleX="3" scaleY="1.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_Tileset" x="256" y="496" w="128" h="128" xo="0" yo="768" id="10000051" name="inst_ED76E2BD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
