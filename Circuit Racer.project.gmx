@@ -18,11 +18,20 @@
   <backgrounds name="background">
     <background>background\bg_Tileset</background>
     <background>background\background1</background>
+    <background>background\background2</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths">
-    <path>paths\path_RaceLine1</path>
-    <path>paths\path_RaceLine3</path>
-    <path>paths\path_RaceLine2</path>
+    <paths name="track_1">
+      <path>paths\path_RaceLine1</path>
+      <path>paths\path_RaceLine2</path>
+      <path>paths\path_RaceLine3</path>
+    </paths>
+    <paths name="track_2">
+      <path>paths\path_RaceLine4</path>
+      <path>paths\path_RaceLine5</path>
+      <path>paths\path_RaceLine6</path>
+    </paths>
   </paths>
   <objects name="objects">
     <object>objects\obj_Car_Base</object>
@@ -39,6 +48,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Level1</room>
+    <room>rooms\rm_Level2</room>
+    <room>rooms\rm_Level3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
